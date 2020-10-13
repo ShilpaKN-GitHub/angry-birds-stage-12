@@ -1,2 +1,3 @@
-# angry-birds-stage-12
+# Angry birds
+
 Simple angry birds game.
