@@ -196,7 +196,10 @@ function reset()
 
 function restart()
 {
-    window.location.reload();
+    if(isGameOver())
+    {
+        window.location.reload();
+    }
 }
 
 function isGameOver() {
