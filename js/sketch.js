@@ -9,7 +9,7 @@ var engine, world;
 
 var box1, box2, box3, box4, box5;
 var pig1, pig2;
-var log1, log2, log3, log4;
+var log1, log2, log3, log4,log5;
 var bird;
 var ground, platform;
 var slingshot;
@@ -49,10 +49,11 @@ function setup()
     pig1 = new Pig(1006, 568);
     pig2 = new Pig(1006, 488);
 
-    log1 = new Log(1006, 518, 260, PI / 2);
+    log1 = new Log(1006, 568, 260, PI / 2);
     log2 = new Log(1006, 458, 260, PI / 2);
-    log3 = new Log(946, 383, 150, PI / 5);
-    log4 = new Log(1046, 383, 150, -PI / 5);
+    log3 = new Log(1006, 520, 260, PI / 2);
+    log4 = new Log(946, 383, 150, PI / 5);
+    log5 = new Log(1046, 383, 150, -PI / 5);
 
     ground = new Ground(683, 588, 1166, 40);
     platform = new Ground(140, 533, 290, 440);
@@ -106,6 +107,7 @@ function draw()
     log2.display();
     log3.display();
     log4.display();
+    log5.display();
 
     slingshot.display();
 
